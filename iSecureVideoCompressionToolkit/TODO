@@ -1,0 +1,19 @@
+10/05/2017 
+Roadmap to v1.17
+* Create MergeAndExtract script in case there's someone who has downloaded the 
+  video but doesn't have 7zip installed and needs to extract the video in splits.
+
+* Reduce encoding time - figure out what best settings are, get files from
+  Investigations. 
+
+* Switch to webm, not ideal as hevc BUT it removes the need for a player bundled
+  separately. Chrome/Firefox can be used to play newly compressed video and no
+  license restrictions. This will also reduce Toolkit filesize. 
+
+* Set loglevels so that only one output is saved to log file and create script
+  within *cnv-1min-test* that calculates average time to encode. 
+
+* Setup Github so that versions of document file can be kept track of. 
+
+* Add info.bat functionality to cnv-1min-test, this should save info of Windows 
+  type in log. 
